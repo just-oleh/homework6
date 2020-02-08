@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto; 
+    width: 934px;   
+}
+
+.header{
+    width: 933px;
+    display: flex;
+    margin-top: 44px;        
+}
+
+.golden{
+    width: 453px;
+}
+
+.golden h1{
+    font-family: 'Oleo Script', cursive, 'MyriadPro-Regular', 'AdobeInvisFont';
+    font-size: 26px;
+    color: #FED136;
+}
+
+.social_networks{
+    width: 480px;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif, 'ProximaNova-Bold','AdobeInvisFont','MyriadPro-Regular';
+    color: #222222;
+}
+
+.social_networks ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.text1{
+    width: 296px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.text1 h1{
+    font-size: 40px;
+    color: #222222;
+    font-family: 'Roboto', sans-serif,'Montserrat-Bold','AdobeInvisFont','MyriadPro-Regular';
+}
+
+.text1 p{
+    font-size: 16px;
+    color: #777777;
+    font-family: 'DroidSerif-Italic','RobotoSlab-Regular','AdobeInvisFont','MyriadPro-Regular';
+    margin-top: 20px;
+}
+
+.infoblock{
+    width: 934px;
+    display: flex;
+}
+
+.icon{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    border: 2px solid #FED136;
+    position: relative;
+}
+
+.icon img{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
